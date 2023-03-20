@@ -23,8 +23,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Lee Gyeong Joun</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            프론트엔드 개발자 <br className='sm:block hidden' />
+            퍼블리셔
           </p>
         </div>
       </div>
@@ -37,6 +37,7 @@ const Hero = () => {
             <motion.div
               animate={{
                 y: [0, 24, 0],
+                // 작은 원
               }}
               transition={{
                 duration: 1.5,
